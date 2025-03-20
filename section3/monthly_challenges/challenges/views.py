@@ -16,7 +16,7 @@ monthly_challenge = {
     "september": "Biceps y 60 minutes every day!",
     "october": "Core 60 minutes every day!",
     "november": "CODM 20 minutes every day!",
-    "december": "Dota at least 6 hours every day!"
+    "december": None
 }
 
 
