@@ -52,35 +52,3 @@ def monthly_challenges(request, month):
     except:
         return HttpResponseNotFound("<h1>Month not supported!</h1>")
 
-
-"""
-    for month in months:
-        capitalize_months = month.capitalize()
-        month_path = reverse("month-challenge", args=[month])
-        list_item += f"<li><a href=\"{month_path}\">{capitalize_months}</a></li>"
-    response_data = f"<ul>{list_item}</ul>"
-    return HttpResponse(response_data)
-"""
-
-"""""
-def january(requests):
-    return HttpResponse("Eat no meat for a month!")
-def february(requets):
-    return HttpResponse("Walk for at least 20 minutes every day!")
-def march(requets):
-    return HttpResponse("Learn at least 20 minutes every day!")
-"""
-
-""""
-def monthly_challenges(request, month):
-    challenge_text = None
-    if month == "january":
-        challenge_text = "Eat no meat for a month!"
-    elif month == "february":
-        challenge_text = "Walk for at least 20 minutes every day!"
-    elif month == "march":
-        challenge_text = "Learn Django at least 20 minutes every day!"
-    else:
-        return HttpResponseNotFound("Month not supported!")
-    return HttpResponse(challenge_text)
-"""
